@@ -1,3 +1,6 @@
 # mlruns
 notebooks/mlruns
 notebooks/mlflow.db
+
+# CBoost
+notebooks/catboost_info/
