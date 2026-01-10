@@ -1,0 +1,28 @@
+artifact_path: file:///d:/Project/Diabetes-mlflow/notebooks/mlruns/5/models/m-d5c97cc7f6d54d159d3d6f0bf213d047/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.19
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+is_signature_from_type_hint: false
+mlflow_version: 3.8.0
+model_id: m-d5c97cc7f6d54d159d3d6f0bf213d047
+model_size_bytes: 706
+model_uuid: m-d5c97cc7f6d54d159d3d6f0bf213d047
+prompts: null
+run_id: 4071e3b784874f41b7f22ee623a40591
+signature:
+  inputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1, 3]}}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-01-10 14:37:27.863855'
